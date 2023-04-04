@@ -1,7 +1,5 @@
 # AWS documentation - Hosting Full-Stack Application
 
----
-
 ## 🚩 Table of Contents
 
 - [Introduction](#introduction)
@@ -19,8 +17,6 @@
   - [Getting started](#getting-started)
   - [Clean up](#clean-up)
   - [Create EC2 keypair](#create-ec2-keypair)
-
----
 
 ## Introduction
 

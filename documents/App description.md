@@ -92,3 +92,23 @@ Here are the files and directories in the Udagram project code repository that a
 - `/udagram-image-filter/src/server.ts`: This file contains the code for processing uploaded images using the Sharp image processing library and storing the processed images in Amazon S3.
 - `/udagram-image-filter/src/util/aws.ts`: This file contains the code for interacting with AWS S3 service.
 - `/udagram-image-filter/src/util/config.ts`: This file contains the configuration settings for the Image Filtering Service, including the AWS access keys and the S3 bucket name.
+
+## AWS Services Used
+
+- Amazon Elastic Beanstalk: used for deploying and managing the application
+- Amazon RDS: used for storing application data
+- Amazon S3: used for storing and retrieving images
+
+For more information about each AWS service and how it is used in the application, please refer to the [AWS Services file](/documents/AWS%20services.md).
+
+## Continuous Integration and Continuous Deployment (CI/CD) tools
+
+- The project uses CI/CD tools to automate the build, test, and deployment process. CircleCI is used for continuous integration and continuous deployment.
+
+- For more information about this and how it is used in the application, please refer to the [Pipeline process](/documents/Pipeline%20process.md).
+
+## App Dependencies
+
+- The application has several dependencies that need to be installed to run the application. These dependencies are defined in the package.json file in the root directory of the project and in each folder inside udagram directory.
+
+- For more information about app dependencies and how it is used in the application, please refer to the [App Dependencies](/documents/App%20Dependencies.md).
