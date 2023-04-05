@@ -1,6 +1,6 @@
 # Hosting a Full-Stack Application
 
----
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/muhammedkhairy/full-stack-app/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/muhammedkhairy/full-stack-app/tree/master)
 
 This project is about how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. Aws console will be used to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers.
 
@@ -14,8 +14,11 @@ This project is about how to take a newly developed Full-Stack application built
   - [🚨 Testing](#-testing)
     - [🧪 Unit Tests](#-unit-tests)
     - [✔️ End to End Tests](#️-end-to-end-tests)
+  - [Pipeline Process with CircleCI](#pipeline-process-with-circleci)
   - [🏗️ Built With](#️-built-with)
+  - [📄 Documentation](#-documentation)
   - [📜 License](#-license)
+  - [💳 Credits](#-credits)
 
 ## Getting starting [Udagram app]
 
@@ -115,12 +118,30 @@ The e2e tests are using Protractor and Jasmine.
 
 ![E2e tests](/screenshots/e2e%20test.jpg 'e2e tests')
 
+## Pipeline Process with CircleCI
+
+CircleCI is used to automate the build, and deployment process of this project. The pipeline process with CircleCI involves several steps, which include building the Docker image, and deploying to the cloud. For a more detailed explanation of the pipeline process with CircleCI, please refer to the Detailed Explanation of [Pipeline Process section](/documents/Pipeline%20process.md).
+
 ## 🏗️ Built With
 
 - [Angular](https://angular.io/) - Single Page Application Framework
 - [Node](https://nodejs.org) - Javascript Runtime
 - [Express](https://expressjs.com/) - Javascript API Framework
 
+## 📄 Documentation
+
+Here you can a detailed documentation for the project
+
+- App description documentation from [here](/documents/App%20description.md)
+- AWS services used in the app from [here](/documents/AWS%20services.md)
+- The pipeline process from [here](/documents/Pipeline%20process.md)
+- App dependencies from [here](/documents/App%20Dependencies.md)
+
 ## 📜 License
 
 [License](LICENSE.txt)
+
+## 💳 Credits
+
+- Thanks to Udacity and its team. they are very helpful 😍
+- Special thank for Eng. Mahmoud Ali Kassem.

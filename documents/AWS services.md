@@ -17,6 +17,7 @@
   - [Getting started](#getting-started)
   - [Clean up](#clean-up)
   - [Create EC2 keypair](#create-ec2-keypair)
+- [AWS Architecture Diagram](#aws-architecture-diagram)
 
 ## Introduction
 
@@ -251,3 +252,15 @@ You can create an EC2 key pair using the AWS Management Console or the AWS CLI. 
 - Choose "Create Key Pair".
 
 The private key file will be downloaded to your local computer. Be sure to store it in a secure location, as you'll need it to connect to your EC2 instances via SSH. Note that once the private key is downloaded, it cannot be retrieved again from the console. If you lose the private key file, you'll need to create a new key pair.
+
+## AWS Architecture Diagram
+
+- Here is a simple diagram giving a high-level overview of the infrastructure.
+
+- The diagram Includes the different AWS services used for hosting the following:
+
+  - DB
+  - API
+  - Front-End
+
+![AWS Diagram](/screenshots/AWS%20Diagram.jpg)
