@@ -63,17 +63,10 @@ jobs:
           name: Set EB Environment Variables
           command: |
             # Set the working directory to the directory containing your EB configuration cd /path/to/your/eb/config
-            cd ./udagram/udagram-api/.elasticbeanstalk
+            cd ./udagram/udagram-api/
             # Set the EB environment variables using the AWS CLI
-            eb setenv \
-            POSTGRES_USERNAME=postgres \
-            POSTGRES_PASSWORD=password123 \
-            POSTGRES_HOST=udagram-fullstack-udacity.c1tkjyi5aofl.us-east-1.rds.amazonaws.com \
-            POSTGRES_DB=postgres \
-            AWS_BUCKET=arn:aws:s3:::udagram-802641492148-bucket \
-            AWS_REGION=us-east-1 \
-            AWS_PROFILE=default \
-            JWT_SECRET=mysecretstring
+            chmod +x ./bin/deploy.sh
+            ./bin/deploy.sh
       - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
