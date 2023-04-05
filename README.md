@@ -7,7 +7,7 @@ This project is about how to take a newly developed Full-Stack application built
 ## 🚩 Table of Contents
 
 - [Hosting a Full-Stack Application](#hosting-a-full-stack-application)
-  - [Getting starting](#getting-starting-udagram-app)
+  - [Getting started](#getting-started-udagram-app)
   - [Udagram overview](#udagram-overview)
   - [⬆️ Dependencies](#️-dependencies)
   - [⚙️ Installation](#️-installation)
@@ -20,7 +20,7 @@ This project is about how to take a newly developed Full-Stack application built
   - [📜 License](#-license)
   - [💳 Credits](#-credits)
 
-## Getting starting [Udagram app]
+## Getting started [Udagram app]
 
 - The Udagram application is provided by Udacity as an alternative starter project as it is a fairly simple application that includes all the major components of a Full-Stack web application.
 
@@ -37,6 +37,8 @@ This project is about how to take a newly developed Full-Stack application built
 - Learn how to write a config.yml file that will make the process reproducible in CircleCi.
 
 - Learn how to set up the process to be executed automatically based when code is pushed on the main Github branch.
+
+- For more information about application, please refer to App description documentation from [here](/documents/App%20description.md)
 
 ## Udagram overview
 
