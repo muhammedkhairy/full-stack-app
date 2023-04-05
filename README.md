@@ -1,6 +1,6 @@
 # Hosting a Full-Stack Application
 
----
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/muhammedkhairy/full-stack-app/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/muhammedkhairy/full-stack-app/tree/master)
 
 This project is about how to take a newly developed Full-Stack application built for a retailer and deploy it to a cloud service provider so that it is available to customers. Aws console will be used to start and configure the services the application needs such as a database to store product information and a web server allowing the site to be discovered by potential customers.
 

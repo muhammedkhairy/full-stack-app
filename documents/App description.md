@@ -1,5 +1,20 @@
 # Udagram - an Image Filtering application
 
+## 🚩 Table of Contents
+
+- [Introduction](#introduction)
+- [App structure](#app-structure)
+  - [Frontend Structure](#frontend-structure)
+    - [Client component](#client-component)
+    - [Deployment component](#deployment-component)
+  - [Backend Structure](#backend-structure)
+    - [User service](#user-service)
+    - [Feed Service](#feed-service)
+    - [Image Filtering Service](#image-filtering-service)
+- [AWS Services Used](#aws-services-used)
+- [Continuous Integration and Continuous Deployment (CI/CD) tools](#continuous-integration-and-continuous-deployment-cicd-tools)
+- [App Dependencies](#app-dependencies)
+
 ## Introduction
 
 - Udagram is a modern, microservices-based web application designed to provide users with a platform to upload, share and process images using a variety of image filtering techniques. The application allows users to register and log in to the web client, post photos to the feed, and apply image filters to their uploaded images using a specialized image filtering service.
