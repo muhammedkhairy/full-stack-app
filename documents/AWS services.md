@@ -46,7 +46,7 @@ We will create a PostgreSQL database using AWS RDS. This is used by the project 
 | Field                                                                                                                     | Value                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
 | Database creation method                                                                                                  | Standard create. <br>Easy create option creates a private database by default. |
-| Engine option                                                                                                             | PostgreSQL 12 or 13                                                            |
+| Engine option                                                                                                             | PostgreSQL 15.2                                                                |
 | Templates                                                                                                                 | Free tier                                                                      |
 | Database name                                                                                                             | postgres                                                                       |
 | **Connectivity**<br>- VPC and subnet<br>- Public access<br>- VPC security group<br>- Availability Zone<br>- Database port | <br>- Default<br>- YES<br>- Default<br>- No preferencce<br>- 5432              |
