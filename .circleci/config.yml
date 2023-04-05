@@ -60,6 +60,19 @@ jobs:
       - aws-cli/setup
       - checkout
       - run:
+          name: Set EB Environment Variables
+          command: |
+            # Set the EB environment variables using the AWS CLI
+            eb setenv \
+            POSTGRES_USERNAME=postgres \
+            POSTGRES_PASSWORD=password123 \
+            POSTGRES_HOST=udagram-fullstack-udacity.c1tkjyi5aofl.us-east-1.rds.amazonaws.com \
+            POSTGRES_DB=postgres \
+            AWS_BUCKET=arn:aws:s3:::udagram-802641492148-bucket \
+            AWS_REGION=us-east-1 \
+            AWS_PROFILE=default \
+            JWT_SECRET=mysecretstring
+      - run:
           name: Deploy App
           # TODO: Install, build, deploy in both apps
           command: |
